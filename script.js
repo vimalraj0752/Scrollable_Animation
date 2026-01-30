@@ -3,7 +3,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 240;
 const currentFrame = index =>
-  `images/ezgif-frame-${String(index).padStart(3, "0")}.png`;
+  `images/ezgif-frame-${String(index).padStart(3, "0")}.jpg`;
 
 canvas.width = 1920;
 canvas.height = 1080;
@@ -45,3 +45,4 @@ window.addEventListener("scroll", () => {
 images[0].onload = () => {
   drawImage(0);
 };
+
