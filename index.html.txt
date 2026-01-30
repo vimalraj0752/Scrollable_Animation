@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Scroll Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Spacer before animation -->
+  <div class="spacer"></div>
+
+  <canvas id="animation"></canvas>
+
+  <!-- Spacer after animation -->
+  <div class="spacer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

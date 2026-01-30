@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 400vh; /* controls scroll length */
+  background: #000;
+}
+
+canvas {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.spacer {
+  height: 100vh;
+}
